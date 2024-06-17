@@ -1,5 +1,7 @@
 "use client";
 
+import "../lib/startup/aws-cloud-rum"
+
 import {useEffect, useState} from "react";
 import {generateClient} from "aws-amplify/data";
 import type {Schema} from "@/amplify/data/resource";
